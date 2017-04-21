@@ -1,9 +1,13 @@
 const component = {
 	index:
 `import angular from 'angular';
-// import components
+/* DO NOT DELETE
+** components
+*/
 export default angular.module('app.component', [])
-// register components
+/* DO NOT DELETE
+** registered components
+*/
 .name;`,
 	js: 
 `export default {
