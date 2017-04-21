@@ -1,6 +1,6 @@
 {
-  "name": "noder-cli",
-  "version": "1.0.0",
+  "name": "ngone-cli",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
