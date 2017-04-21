@@ -1,13 +1,19 @@
 const app = {
 	module: 
 `import angular from 'angular';
-// external dependencies
+/* DO NOT DELETE
+** external dependencies
+*/
 import uirouter from 'angular-ui-router';
-// internal dependencies
+/* DO NOT DELETE
+** internal dependencies
+*/
 import {routing} from './app.config';
 app.module('app', [
 uirouter,
-// dependencies
+/* DO NOT DELETE
+** injected dependencies
+*/
 ])
 .config(app_routing)`,
 	config: 
