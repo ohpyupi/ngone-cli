@@ -29,6 +29,7 @@ program
 	}
 })
 
+require('./commands/service.js')
 require('./commands/component.js')
 
 program

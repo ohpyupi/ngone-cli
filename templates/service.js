@@ -14,7 +14,14 @@ export default angular.module('app.service', [])
 	constrictor() {
 		'ngInject';
 	}
-}`
+}`,
+	unit:
+`
+/*
+** unit teting
+*/
+`,
+
 };
 
 module.exports = service;
