@@ -16,6 +16,9 @@ By default, in app.module.js, import statement for [angular](https://www.npmjs.c
 `ngone component [name] -g` will create basic component template in ./app/components/[name]. Once the component is created,
 importing the component in the main modules and injecting to the angular app will be automatically followed.
 
+## Terminate a component
+`ngone component [name] -t` will delete and unregister the component from the app.
+
 ## Author
 [ohpyupi](https://github.com/ohpyupi)
 
