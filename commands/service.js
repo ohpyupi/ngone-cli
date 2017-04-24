@@ -46,7 +46,7 @@ program
 			_hfunc.addLineToFile(`${service_root}/index.js`,`import ${capName}Service from './${name}';`, `** services`, ()=>{
 				console.log(`# Imported ${capName}Service to the app.`);
 				_hfunc.addLineToFile(`${service_root}/index.js`,`.service('my${capName}', ${capName}Service)`, `** registered services`, ()=>{
-					console.log(`# Registered ${capName}Service as "my-${name}" to the app.`);
+					console.log(`# Registered ${capName}Service as "${name}" to the app.`);
 				});
 			});
 			console.log(`# Created ${service_dir}`);
