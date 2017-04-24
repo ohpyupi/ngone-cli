@@ -2,11 +2,11 @@ const service = {
 	index:
 `import angular from 'angular';
 /* DO NOT DELETE
-** imported
+** services
 */
 export default angular.module('app.service', [])
 /* DO NOT DELETE
-** registered
+** registered services
 */
 .name;`,
 	js: 
