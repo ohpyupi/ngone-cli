@@ -8,8 +8,8 @@ import uirouter from 'angular-ui-router';
 /* DO NOT DELETE
 ** internal dependencies
 */
-import {routing} from './app.config';
-app.module('app', [
+import {app_routing} from './app.config';
+angular.module('app', [
 uirouter,
 /* DO NOT DELETE
 ** injected dependencies
@@ -17,7 +17,7 @@ uirouter,
 ])
 .config(app_routing)`,
 	config: 
-`export function routing ($urlRouterProvider, $locationProvider) {
+`export function app_routing ($urlRouterProvider, $locationProvider) {
 	'ngInject';
 	$urlRouterProvider.otherwise('/');
 }`,
