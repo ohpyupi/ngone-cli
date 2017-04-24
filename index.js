@@ -25,7 +25,7 @@ program
 			console.log(`# Created ./app/app.config.js`);
 		});
 	} else {
-		console.log(`! Exisiting angular app has been detected. Terminate the command ...`);
+		console.log(`! Exisiting angular app has been detected.\n! Terminate the command ...`);
 	}
 })
 
